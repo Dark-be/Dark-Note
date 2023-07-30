@@ -1,5 +1,10 @@
 # Dark-Note
 Learning notes directory
+
+## Document
+
+[Dark-Note](https://Dark-be.github.io/Dark-Note)
+
 ***
 [toc]
 ***

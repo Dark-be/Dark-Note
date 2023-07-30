@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [ROS](../ROS)
+* [ROS](docs/ROS)
 * [Jetson nano](../Jetson%20nano)
 * [STM32](../STM32)
 * [计算机视觉](../CV)

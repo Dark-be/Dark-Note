@@ -1,4 +1,5 @@
 ## ROS(Melodic)
+* work with jetson nano
 ***
 #### Work with MCU
 * 与下位机串口通信，详见[serial_pkg]()

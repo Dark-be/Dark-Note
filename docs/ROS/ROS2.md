@@ -1,4 +1,5 @@
 ## ROS2(Dashing)
+* work with jetson nano
 ***
 #### Micro-XRCE-DDS-Agent(for microROS )
 * Q : 某共享库缺失

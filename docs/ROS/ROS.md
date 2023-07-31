@@ -7,6 +7,11 @@
 #### cv_bridge
 * 可直接apt安装，使用需更改**cv_bridgeConfig**，指向本地**opencv**对应版本的**include_dir**
 * 使用**opencv**图像处理以及图像信息转换发送，详见[opencv_test]()
+#### rplidar
+> [rplidar_ros](#github)
 #### robot EKF
+> [robot]()
 #### navgation
+> [navgation]()
 #### robot localization
+> [robot_localiztion]()

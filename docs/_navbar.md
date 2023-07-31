@@ -1,12 +1,7 @@
 * Getting started
-  * [Quick start](quickstart.md)
-  * [Writing more pages](more-pages.md)
-  * [Custom navbar](custom-navbar.md)
-  * [Cover page](cover.md)
+  * [Hardware](dark-be.github.io/Dark-Note)
+  * [Software](more-pages.md)
 
-* Configuration
-  * [Configuration](configuration.md)
+* About
   * [Themes](themes.md)
-  * [Using plugins](plugins.md)
-  * [Markdown configuration](markdown.md)
   * [Language highlight](language-highlight.md)

@@ -8,6 +8,7 @@
 ```sh
 ssh-keygen -f id_rsa -p   #更改私钥密码
 git help                  #获取帮助
+git pull --allow-unrelated-histories
 ```
 #### Work together
 * 合作一般遵循以下流程

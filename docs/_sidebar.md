@@ -10,6 +10,7 @@
   - [STM32](MCU/STM32.md)
   - [K210](MCU/K210.md)
 - [**ControlAlgorithm**](Alogrithm/Alogrithm.md)
+- [**Ubuntu**](Linux/ubuntu.md)
 - [**GIT**](GIT/git.md)
 - [**CV**](CV/Opencv.md)
 

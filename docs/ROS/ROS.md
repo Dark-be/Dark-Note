@@ -1,6 +1,6 @@
 ## ROS(Melodic)
 ***
-#### work with MCU
+#### Work with MCU
 * 与下位机串口通信，详见[serial_pkg]()
 * 可重写**Ctrl-C**中断函数，实现ROS终止后执行结束指令
 #### cv_bridge

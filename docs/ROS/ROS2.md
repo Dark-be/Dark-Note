@@ -1,5 +1,5 @@
 ## ROS2(Dashing)
-* work with jetson nano
+* Work with jetson nano
 ***
 #### Micro-XRCE-DDS-Agent(for microROS )
 * Q : 某共享库缺失
@@ -16,3 +16,4 @@
 ```python
   configuration_directory = LaunchConfiguration('configuration_directory',default= os.path.join(get_package_share_directory('fishbot_cartographer'), 'config') )
   from ament_index_python.packages import get_package_share_directory
+```

@@ -22,6 +22,17 @@ git pull
 git commit -m "new merge"
 git push
 ```
+#### Branch
+```sh
+git branch -m oldName newName                       #本地重命名
+
+git branch -m oldName newName                       #远程重命名
+git push --delete origin oldName
+git push origin newName
+git branch --set-upstream-to origin/newName
+
+git branch --unset-upstream                         #若本地之前已经关联需解除
+```
 #### Pages
 ```sh
 docsify serve docs                                  #启动本地网页生成

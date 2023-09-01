@@ -2,7 +2,6 @@
 Matlab Project :
 * 应用于**IMU**数据融合。
 
-
 ***
 ## Linear Quadratic Regulator
 Matlab Project :
@@ -10,7 +9,7 @@ Matlab Project :
 
 * 使用**Matlab**物理仿真，得到具体参数。
 ***
-## ellipsoid fitting
+## Ellipsoid Fitting
 
 Matlab Project :
 > [IMU椭球标定]()

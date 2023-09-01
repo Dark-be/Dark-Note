@@ -20,3 +20,6 @@ python -3.9 -m pip install pkg_name
 sudo usermod -aG dialout username
 ```
 
+#### C++串口通信
+* **CmakeLists**加入**ros-melodic-serial**(或者其他底层串口驱动)编译
+

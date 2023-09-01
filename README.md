@@ -1,1 +1,1 @@
-Learning
+https://dark-be.github.io/Dark-Note/

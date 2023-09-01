@@ -1,5 +1,4 @@
 ## Ubuntu 18.04
-Noticing some usage
 ***
 #### Set static WLAN IP
 * 查看网关等

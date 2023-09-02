@@ -18,6 +18,13 @@ sharp = (-1,-1,-1,-1,9,-1,-1,-1,-1)         #锐化
 relievo = (2,0,0,0,-1,0,0,0,-1)             #浮雕化
 ```
 ***
+
+## ESP32
+#### Project
+> [HTTPClient test](https://github.com/Dark-be/2023-ESP32)
+
+* **ArduinoJson**内存分配不足会导致解析缺失。
+***
 ## STM32
 
 ***

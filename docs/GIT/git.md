@@ -25,12 +25,12 @@ git push
 #### Branch
 ```sh
 git branch -m oldName newName                       #本地重命名
-
+----
 git branch -m oldName newName                       #远程重命名流程
 git push --delete origin oldName
 git push origin newName
 git branch --set-upstream-to origin/newName
-
+----
 git branch --unset-upstream                         #若本地之前已经关联需解除
 git branch -u origin/main                           #将本地分支与远程main分支关联，
                                                     #此前最好fetch一次
@@ -41,7 +41,6 @@ git remote -v                                       #远程仓库地址
 git remote show origin                              #查看远程分支信息
 
 ```
-
 #### Pages
 ```sh
 docsify serve docs                                  #启动本地网页生成

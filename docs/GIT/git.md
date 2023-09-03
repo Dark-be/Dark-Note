@@ -1,20 +1,31 @@
-## Git
+# Git
+
 [My Github]()
 ***
-#### SSH
+
+## Tips
+
+### SSH
+
 * 使用SSH密钥连接更稳定，详见[Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
 ```sh
 ssh-keygen -t ed25519 -C "your_email@example.com"   #密钥需复制到github
 eval "$(ssh-agent -s)"                              #启动SSH服务
 ```
-#### Common command
+
+### Common command
+
 ```sh
 ssh-keygen -f id_rsa -p                             #更改私钥密码
 git help                                            #获取帮助
 git pull --allow-unrelated-histories                #忽略历史拉取
 ```
-#### Work together
+
+### Work together
+
 * 合作一般遵循以下流程
+
 ```sh
 git add .
 git commit -m "new commit"
@@ -22,7 +33,9 @@ git pull
 git commit -m "new merge"
 git push
 ```
-#### Branch
+
+### Branch
+
 ```sh
 git branch -m oldName newName                       #本地重命名
 ----
@@ -35,13 +48,17 @@ git branch --unset-upstream                         #若本地之前已经关联
 git branch -u origin/main                           #将本地分支与远程main分支关联，
                                                     #此前最好fetch一次
 ```
-#### Remote
+
+### Remote
+
 ```sh
 git remote -v                                       #远程仓库地址
 git remote show origin                              #查看远程分支信息
 
 ```
-#### Pages
+
+### Website
+
 ```sh
 docsify serve docs                                  #启动本地网页生成
 ```

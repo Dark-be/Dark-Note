@@ -2,12 +2,12 @@
 
 ## Project
 
-> [WHU-CAR-Driver](https://github.com/Pansamic/WHUCAR-Driver.git)
-> [ESP32-HTTPClient-test](https://github.com/Dark-be/2023-ESP32)
+> [TM4C129-WHU-CAR-Driver](https://github.com/Pansamic/WHUCAR-Driver.git)
+> [ESP32-terminal](https://github.com/Dark-be/2023-ESP32)
 
 ## TI-TM4C129
 
-[Function]()
+* 见[WHU-CAR-Driver](https://github.com/Pansamic/WHUCAR-Driver.git)
 
 ***
 
@@ -18,7 +18,7 @@
 ### 硬件加速卷积
 
 * **img.conv3(kernel)**
-**kernel**为卷积核，以下提供一些例子。
+**kernel**为卷积核，以下提供一些例子
 
 ```python
 origin = (0,0,0, 0,1,0, 0,0,0)              #原始图像
@@ -27,11 +27,19 @@ sharp = (-1,-1,-1,-1,9,-1,-1,-1,-1)         #锐化
 relievo = (2,0,0,0,-1,0,0,0,-1)             #浮雕化
 ```
 
+### 音频与麦克风
+
+
+
 ***
 
 ## ESP32
 
-* **ArduinoJson**内存分配不足会导致解析缺失。
+* **ArduinoJson**内存分配不足会导致解析缺失
+
+### TFT_eSPI && LVGL
+
+* 见[ESP32-terminal](https://github.com/Dark-be/2023-ESP32)
 
 ***
 

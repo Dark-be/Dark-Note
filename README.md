@@ -1,1 +1,3 @@
-https://dark-be.github.io/Dark-Note/
+# README.md
+
+[Website](https://dark-be.github.io/Dark-Note/)

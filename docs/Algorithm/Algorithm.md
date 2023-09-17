@@ -1,6 +1,8 @@
 # Algorithm
 
-## Kalman Filter
+## Control Algorithm
+
+### Kalman Filter
 
 Matlab Project :
 
@@ -8,7 +10,7 @@ Matlab Project :
 
 ***
 
-## Linear Quadratic Regulator
+### Linear Quadratic Regulator
 
 Matlab Project :
 > [LQR倒立摆小车]()
@@ -17,9 +19,13 @@ Matlab Project :
 
 ***
 
-## Ellipsoid Fitting
+### Ellipsoid Fitting
 
 Matlab Project :
 > [IMU椭球标定]()
 
 * 旋转IMU，尽量均匀地分布于Accel矢量椭球上，通常使用6个面来进行校准。
+
+***
+
+## Render Algorithm

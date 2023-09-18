@@ -1,8 +1,13 @@
-# Tools
+# Softwares
 
 ## Git
 
-***
+* 常用指令
+
+```sh
+ssh-keygen -f id_rsa -p                             #更改私钥密码
+git pull --allow-unrelated-histories                #忽略历史拉取
+```
 
 ### SSH
 
@@ -13,13 +18,8 @@ ssh-keygen -t ed25519 -C "your_email@example.com"   #密钥需复制到github
 eval "$(ssh-agent -s)"                              #启动SSH服务
 ```
 
-### Common command
 
-```sh
-ssh-keygen -f id_rsa -p                             #更改私钥密码
-git help                                            #获取帮助
-git pull --allow-unrelated-histories                #忽略历史拉取
-```
+
 
 ### Work together
 
@@ -56,13 +56,17 @@ git remote show origin                              #查看远程分支信息
 
 ```
 
-### Website
-
-```sh
-docsify serve docs                                  #启动本地网页生成
-localhost:3000                                      #本地网页地址
-```
+***
 
 ## Docker
 
+* 常用指令
 
+```sh
+docker run -it --name=[container name] [image name] #创建容器
+docker start [container name]                       #启动容器
+docker attach [container name]                      #进入容器
+docker exec -it [container name] /bin/bash          #进入容器(伪终端)
+
+
+```

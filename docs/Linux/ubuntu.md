@@ -1,4 +1,6 @@
-# Ubuntu 18.04
+# Ubuntu
+
+## Ubuntu 18.04
 
 ***
 
@@ -33,3 +35,10 @@ sudo usermod -aG dialout username
 #### C++串口通信
 
 * **CmakeLists**加入**ros-melodic-serial**(或者其他底层串口驱动)编译
+
+## Ubuntu 22.04
+
+### Install
+
+* 使用**SD**卡和**balenaEtcher**烧录镜像
+* 进入**BIOS**，设置**USB**启动即可开始安装

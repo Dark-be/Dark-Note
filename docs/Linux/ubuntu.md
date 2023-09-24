@@ -40,3 +40,9 @@ sudo usermod -aG dialout username
 
 * 使用**SD**卡和**balenaEtcher**烧录镜像
 * 进入**BIOS**，设置**USB**启动即可开始安装
+
+### apt
+
+```sh
+* apt-cache search [pkg_name]           #搜索对应的包
+```

@@ -18,9 +18,6 @@ ssh-keygen -t ed25519 -C "your_email@example.com"   #密钥需复制到github
 eval "$(ssh-agent -s)"                              #启动SSH服务
 ```
 
-
-
-
 ### Work together
 
 * 合作一般遵循以下流程
@@ -67,7 +64,12 @@ docker run -it --name=[container name] [image name] #创建容器
 docker start [container name]                       #启动容器
 docker attach [container name]                      #进入容器
 docker exec -it [container name] /bin/bash          #进入容器(伪终端)
+```
 
+* **docker**内部可视化可以在启动时配置，主机首先输入**xhost +**开放**X server**权限
+
+```sh
+docker run -it -v /tmp/.X11-unix -e DISPLAY=$DISPLAY --name test-demo ubuntu
 
 ```
 

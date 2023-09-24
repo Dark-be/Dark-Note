@@ -41,6 +41,8 @@ ldconfig
 
 > [velodyne](https://github.com/ros-drivers/velodyne/tree/humble-devel)
 
+* 网线连接报错**activation faild**，修改**IPv4**地址
+
 * 雷达默认**IP** 192.168.1.201
 * 浏览器进入配置界面配置参数并保存
 * **velodyne driver**中的**conf/*.yaml**需修改为雷达**IP**

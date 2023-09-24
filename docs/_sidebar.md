@@ -7,6 +7,7 @@
 - [**Linux**](#Linux)
   - [Ubuntu](Linux/Ubuntu.md)
   - [Software](Linux/Softwares.md)
+- [**Android**](Android/Android.md)
 - [**Web**](#Web)
   - [Website](Web/Website.md)
 - [**ControlAlgorithm**](Algorithm/Algorithm.md)

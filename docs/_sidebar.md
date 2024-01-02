@@ -4,6 +4,7 @@
   - [ROS](ROS/ROS.md)
   - [ROS2](ROS/ROS2.md)
 - [**MCU**](MCU/MCU.md)
+- [**FPGA**](FPGA/FPGA.md)
 - [**Linux**](#Linux)
   - [Ubuntu](Linux/Ubuntu.md)
   - [Software](Linux/Softwares.md)
